@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceará SC - Galeria Alvinegra</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-overlay"></div>
+
+    <header>
+        <img src="ceara-sc-logo-2022.svg" alt="Escudo Ceará" class="logo-header">
+        <h1>GALERIA ALVINEGRA</h1>
+        <p>A trajetória do Vozão rodada a rodada</p>
+        
+        <nav id="filtros">
+            <button onclick="buscarJogos(2020)">2020</button>
+            <button onclick="buscarJogos(2021)">2021</button>
+            <button onclick="buscarJogos(2022)">2022</button>
+            <button onclick="buscarJogos(2023)">2023</button>
+            <button onclick="buscarJogos(2024)">2024</button>
+            <button onclick="buscarJogos(2025)">2025</button>
+            <button onclick="buscarJogos(2026)">2026</button>
+        </nav>
+    </header>
+
+    <main id="container-jogos">
+        <div class="status-inicial">Escolha uma temporada para carregar os confrontos.</div>
+    </main>
+
+    <div id="controles-carregar" style="display: none; text-align: center; padding-bottom: 50px;">
+        <button id="btnCarregarMais" onclick="carregarBloco()">CARREGAR MAIS JOGOS</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
