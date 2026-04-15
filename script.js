@@ -52,7 +52,7 @@ function renderizarCard(r, adversario, link) {
     card.innerHTML = `
         <div class="rodada-tag">RODADA ${r}</div>
         <div class="capa-substituta">
-            <img src="https://logodownload.org/wp-content/uploads/2018/09/ceara-sc-logo.png" alt="Ceará SC">
+            <img src="ceara-sc-logo-2022.svg" alt="Ceará SC">
             <div class="play-btn">Assistir Gols</div>
         </div>
         <div class="info">
