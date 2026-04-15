@@ -1,27 +1,36 @@
-# 🏁 Galeria Alvinegra - Histórico de Rodadas do Vozão
+# 🏁 Galeria Alvinegra - Ceará Sporting Club
 
-Uma aplicação web moderna e minimalista desenvolvida para torcedores do **Ceará Sporting Club**. O objetivo é facilitar o acesso aos melhores momentos de cada partida do Vozão nas temporadas de 2020 a 2026, seguindo a ordem exata das rodadas.
+> **🌐 Acesse o site oficial:** [https://bzisaac2008.github.io/GALERIA-ALVINEGRA/](https://bzisaac2008.github.io/GALERIA-ALVINEGRA/)
 
-![Ceará SC](https://logodownload.org/wp-content/uploads/2018/09/ceara-sc-logo.png)
+Uma plataforma centralizada para reviver os melhores momentos de cada partida do **Vozão**. O projeto organiza cronologicamente as rodadas do Brasileirão (Série A e B) de 2020 a 2026, garantindo que o torcedor encontre o vídeo exato de cada confronto.
+
+---
 
 ## 🚀 Funcionalidades
-
-- **Navegação por Temporada:** Filtros rápidos para acessar jogos desde 2020 até o planejamento de 2026.
-- **Busca Inteligente:** Cada card gera um link dinâmico que leva você direto para o vídeo oficial dos melhores momentos no YouTube (GE/Vozão TV).
-- **Interface Premium:** Design baseado em *Glassmorphism* com identidade visual focada no Preto e Branco (P&B) clássico do clube.
-- **Totalmente Responsivo:** Visualize perfeitamente no computador ou no celular.
+- **Histórico Completo:** Cobertura das temporadas 2020, 2021, 2022, 2023, 2024 e projeções para 2025/2026.
+- **Busca de Precisão:** Links inteligentes que cruzam *Rodada + Adversário + Ano* para encontrar o vídeo oficial (GE/Vozão TV).
+- **Design Alvinegro:** Interface minimalista em Preto e Branco, respeitando as cores tradicionais do clube.
+- **Carregamento Dinâmico:** Sistema de "Ver mais" para não sobrecarregar a navegação.
+- **Totalmente Responsivo:** Adaptado para computadores, tablets e smartphones.
 
 ## 🛠️ Tecnologias Utilizadas
+- **HTML5:** Estrutura semântica e acessível.
+- **CSS3 Moderno:** - Glassmorphism (efeito de vidro).
+  - Animações de Hover (interação suave).
+  - Tipografia esportiva via Google Fonts (Oswald e Roboto).
+- **JavaScript (Vanilla):** Motor de busca e manipulação dinâmica dos cards de jogos.
 
-- **HTML5:** Estrutura semântica dos cards e seções.
-- **CSS3:** Estilização customizada com efeitos de vidro, filtros de escala de cinza e fontes esportivas (Oswald & Roboto).
-- **JavaScript (Vanilla):** Lógica para manipulação de DOM, organização das listas de adversários e geração de links dinâmicos de busca.
+## 📂 Organização do Repositório
+- `index.html`: Página principal e estrutura.
+- `style.css`: Estilização P&B e layout responsivo.
+- `script.js`: Banco de dados das rodadas e lógica de geração de links.
+- `README.md`: Documentação do projeto.
 
-## 📂 Estrutura do Projeto
+## 🔧 Como atualizar o site
+Sempre que o Ceará jogar uma nova partida, basta:
+1. Abrir o arquivo `script.js`.
+2. Adicionar o nome do adversário na lista do ano correspondente.
+3. Fazer o `git push` e o site atualizará automaticamente via GitHub Pages.
 
-```text
-.
-├── index.html        # Estrutura principal do site
-├── style.css         # Estilização e efeitos visuais
-├── script.js        # Inteligência e banco de dados de rodadas
-└── torcida.jpg       # Imagem de fundo (fundo da torcida alvinegra)
+---
+**Desenvolvido por [Isaac](https://github.com/bzisaac2008)** 🏁  
